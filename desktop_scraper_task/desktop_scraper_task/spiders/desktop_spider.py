@@ -3,7 +3,7 @@ import scrapy
 class DesktopSpider(scrapy.Spider):
     name = "get_computers_data"
     start_urls = ["https://desktop.bg/computers-all"]
-
+    
     def parse(self, response):
         products = response.css("ul.products > li")
 
