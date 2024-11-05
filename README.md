@@ -11,7 +11,7 @@ Content
 - Database Schema📋
 - API Endpoints📡
 
-## Installation ##💻
+## Installation💻
 
 1. Clone the repository:
     ```bash
