@@ -11,18 +11,18 @@ Content
 - Database Schema📋
 - API Endpoints📡
 
-## Installation💻
+## Installation 💻
 
 1. Clone the repository:
     ```bash
    git clone https://github.com/kristiqnnikolov/desktop_scraper.git
    cd desktop_scraper
 
-1. Create a virtual environment:
+2. Create a virtual environment:
     ```bash
     python -m venv venv
 
-2. Activate the virtual environment:
+3. Activate the virtual environment:
 
     - On Windows:
       ```bash
@@ -32,12 +32,12 @@ Content
       ```bash
       source venv/bin/activate
 
-3. Install the dependencies:
+4. Install the dependencies:
       ```bash
       pip install -r requirements.txt
       pip install flask
 
-## Usage ## 🚀
+## Usage 🚀
 
 1. Run the **Scrapy** spider to scrape data:
       ```bash
@@ -55,17 +55,17 @@ Content
       ```bash
       python 4_flask_app.py
    
-6. Access the application:
+5. Access the application:
 
-   Open your web browser and go to `http://127.0.0.1:5000/computers`
+   Go to `http://127.0.0.1:5000/computers`
    
-   Apply **Pretty-print** check (for verifing bulgarian to english)
-
-7. Verify data by running 5_verify_data.py (Optional).
+   Apply **Pretty-print** check
+   
+6. Verify data by running 5_verify_data.py (Optional).
    This file will print the total entries from the database.
 
    
-## Database Schema ##📋
+## Database Schema📋
 
 The database contains a single table `computers` with the following schema:
 
@@ -76,7 +76,7 @@ The database contains a single table `computers` with the following schema:
 - `gpu` (TEXT): GPU type.
 - `ram` (TEXT): RAM type.
 
-## API Endpoints - GET /computers ##📡
+## API Endpoints📡
 
 Retrieve a list of computers with optional filtering.
 
@@ -86,10 +86,3 @@ Retrieve a list of computers with optional filtering.
 - `gpu` (optional): Filter by GPU type.
 - `motherboard` (optional): Filter by motherboard type.
 - `ram` (optional): Filter by RAM type.
-
-
-
-
-
-
-
