@@ -11,8 +11,9 @@ Content
 
 1. Clone the repository:
 
-    git clone https://github.com/kristiqnnikolov/desktop_scraper_task.git
-    cd desktop_scraper_task
+   git clone https://github.com/kristiqnnikolov/desktop_scraper_task.git
+
+   cd desktop_scraper_task
 
 2. Create a virtual environment:
 
@@ -29,6 +30,7 @@ Content
 4. Install the dependencies:
 
     pip install -r requirements.txt
+   
     pip install flask (if you haven't already)
 
 ## Usage ## 🚀
