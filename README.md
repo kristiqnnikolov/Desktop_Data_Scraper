@@ -1,4 +1,5 @@
 This project is a web application for scraping data from the website https://desktop.bg/computers-all
+
 Used technologies: **Flask**, **SQLite**, **Scrapy**
                    
 Content
