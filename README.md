@@ -1,5 +1,8 @@
 This project is a web application for scraping data from the website https://desktop.bg/computers-all
-and creating API to access the data. Data includes details as follow : ID, cpu name, processor type, ram tyoe, motherboard type and gpu type.
+and creating API to access the data.
+
+Data includes details as follow : ID, cpu name, processor type, ram tyoe, motherboard type and gpu type.
+
 Used technologies: **Python**, **Flask**, **SQLite**, **Scrapy**
                    
 Content
