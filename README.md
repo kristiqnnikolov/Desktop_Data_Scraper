@@ -1,8 +1,7 @@
-This project is a web application for managing and querying computer specifications from the website https://desktop.bg/computers-all .
-It uses **Flask** for the web framework, **SQLite** for the database, and **Scrapy** for web scraping.
-
+This project is a web application for scraping data from the website https://desktop.bg/computers-all
+Used technologies: **Flask**, **SQLite**, **Scrapy**
+                   
 Content
-
 - Installation💻
 - Usage🚀
 - Database Schema📋
@@ -19,7 +18,6 @@ Content
 
     python -m venv venv
 
-
 3. Activate the virtual environment:
 
     - On Windows:
@@ -28,41 +26,39 @@ Content
     - On macOS and Linux:
       source venv/bin/activate
 
-
 4. Install the dependencies:
 
     pip install -r requirements.txt
-
+    pip install flask (if you haven't already)
 
 ## Usage ## 🚀
 
 1. Run the **Scrapy** spider to scrape data:
 
-    scrapy crawl get_computers_data -o computers_data.json
-
+    scrapy crawl get_computers_data -O computers_data.json
 
 2. Initialize the database:
 
     python init_db.py
 
-
 3. Insert scraped data into the database:
 
-    python insert_data_to_db.py
-
+    python 2_insert_data_to_db.py
 
 4. Run the **Flask** application:
 
-    python flask_app.py
-
-
-5. Access the application:
+    python 3_flask_app.py
+   
+6. Access the application:
 
    Open your web browser and go to `http://127.0.0.1:5000/computers`
    
    Apply **Pretty-print** check (for verifing bulgarian to english)
 
+7. Verify data by running 4_verify_data.py (Optional).
+   This file will print the total entries in the database.
 
+   
 ## Database Schema ##📋
 
 The database contains a single table `computers` with the following schema:
