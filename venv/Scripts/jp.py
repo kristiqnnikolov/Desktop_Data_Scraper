@@ -1,4 +1,4 @@
-#!D:\Desktop\desktop_scraper_task\venv\Scripts\python.exe
+#!D:\Desktop\desktop_scraper\venv\Scripts\python.exe
 
 import sys
 import json

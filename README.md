@@ -11,9 +11,9 @@ Content
 
 1. Clone the repository:
 
-   - git clone https://github.com/kristiqnnikolov/desktop_scraper_task.git
+   - git clone https://github.com/kristiqnnikolov/desktop_scraper.git
 
-   - cd desktop_scraper_task
+   - cd desktop_scraper
 
 2. Create a virtual environment:
 
