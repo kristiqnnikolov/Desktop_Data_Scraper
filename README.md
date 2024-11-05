@@ -32,8 +32,6 @@ Content
 3. Install the dependencies:
       ```bash
       pip install -r requirements.txt
-
-      ```bash
       pip install flask
 
 ## Usage ## 🚀
@@ -61,7 +59,7 @@ Content
    Apply **Pretty-print** check (for verifing bulgarian to english)
 
 7. Verify data by running 5_verify_data.py (Optional).
-   This file will print the total entries in the database.
+   This file will print the total entries from the database.
 
    
 ## Database Schema ##📋
