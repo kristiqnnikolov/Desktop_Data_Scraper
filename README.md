@@ -11,13 +11,13 @@ Content
 
 1. Clone the repository:
 
-   git clone https://github.com/kristiqnnikolov/desktop_scraper_task.git
+   - git clone https://github.com/kristiqnnikolov/desktop_scraper_task.git
 
-   cd desktop_scraper_task
+   - cd desktop_scraper_task
 
 2. Create a virtual environment:
 
-    python -m venv venv
+    - python -m venv venv
 
 3. Activate the virtual environment:
 
@@ -29,27 +29,27 @@ Content
 
 4. Install the dependencies:
 
-    pip install -r requirements.txt
+    - pip install -r requirements.txt
    
-    pip install flask (if you haven't already)
+    - pip install flask (if you haven't already)
 
 ## Usage ## 🚀
 
 1. Run the **Scrapy** spider to scrape data:
 
-    scrapy crawl get_computers_data -O computers_data.json
+    - scrapy crawl get_computers_data -O computers_data.json
 
 2. Initialize the database:
 
-    python init_db.py
+    - python 2_init_db.py
 
 3. Insert scraped data into the database:
 
-    python 2_insert_data_to_db.py
+    - python 3_insert_data_to_db.py
 
 4. Run the **Flask** application:
 
-    python 3_flask_app.py
+    - python 4_flask_app.py
    
 6. Access the application:
 
@@ -57,7 +57,7 @@ Content
    
    Apply **Pretty-print** check (for verifing bulgarian to english)
 
-7. Verify data by running 4_verify_data.py (Optional).
+7. Verify data by running 5_verify_data.py (Optional).
    This file will print the total entries in the database.
 
    
