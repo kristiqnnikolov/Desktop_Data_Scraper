@@ -15,7 +15,7 @@ Content
 
 1. Clone the repository:
     ```bash
-   git clone https://github.com/kristiqnnikolov/desktop_scraper.git
+   git clone https://github.com/kristiqnnikolov/Desktop_Data_Scraper.git
    cd desktop_scraper
 
 2. Create a virtual environment:
